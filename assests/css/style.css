@@ -161,7 +161,7 @@ h3 {
 
 .body-contact-me ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .body-contact-me a {
