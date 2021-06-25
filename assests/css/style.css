@@ -96,12 +96,23 @@ h3 {
   border-left: 3px solid #445777;
 }
 
+.body-about-me h2 {
+  display: none;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
 .body-about-me img {
   max-width: 200px;
   max-height: 200px;
   width: auto;
   height: auto;
-  padding-right: 15px;
+  padding: 0 10px 8px 0;
+  float: left;
+}
+
+.body-about-me p {
+  text-align: justify;
 }
 
 .main-work {
@@ -135,6 +146,10 @@ h3 {
   border-left: 3px solid #445777;
 }
 
+.body-contact-me ul li {
+  display: inline;
+}
+
 .body-contact-me a {
   background: linear-gradient(to bottom, #445777 0%, #445777 100%);
   background-position: 0 100%;
@@ -149,4 +164,10 @@ h3 {
 .body-contact-me a:hover {
   background-size: 4px 50px;
   color: #31343d;
+}
+
+@media screen and (max-width: 768px) {
+  .body-about-me h2 {
+    display: block;
+  }
 }
