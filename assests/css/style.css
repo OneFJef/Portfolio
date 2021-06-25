@@ -38,13 +38,10 @@ h3 {
   color: #31343d;
 }
 
-.header nav {
-  padding-right: 50px;
-}
-
 .header nav ul li {
   display: inline;
   text-decoration: none;
+  margin: 0 10px;
 }
 
 .nav-links a {
@@ -256,7 +253,7 @@ h3 {
 
   .body-contact-me ul {
     margin: 0;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .body-contact-me h2 {
