@@ -131,6 +131,12 @@ h3 {
   border-left: 3px solid #445777;
 }
 
+.body-work h2 {
+  display: none;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
 .main-contact-me {
   display: flex;
   margin: 35px 5%;
@@ -142,12 +148,20 @@ h3 {
 }
 
 .body-contact-me {
+  flex-grow: 1;
   padding: 10px 30px;
   border-left: 3px solid #445777;
 }
 
-.body-contact-me ul li {
-  display: inline;
+.body-contact-me h2 {
+  display: none;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.body-contact-me ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 .body-contact-me a {
@@ -163,11 +177,53 @@ h3 {
 
 .body-contact-me a:hover {
   background-size: 4px 50px;
-  color: #31343d;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
+  .title-about-me {
+    display: none;
+  }
+  
+  .body-about-me {
+    border-left: 0;
+  }
   .body-about-me h2 {
     display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #445777;
+  }
+
+  .title-work {
+    display: none;
+  }
+
+  .body-work {
+    border-left: 0;
+  }
+
+  .body-work h2 {
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #445777;
+
+  }
+
+  .title-contact-me {
+    display: none;
+  }
+
+  .body-contact-me {
+    border-left: 0;
+  }
+
+  .body-contact-me h2 {
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #445777;
+
   }
 }
