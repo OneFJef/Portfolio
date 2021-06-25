@@ -211,7 +211,7 @@ h3 {
   
   .body-about-me {
     border-left: 0;
-    padding: 10px 20px;
+    padding: 10px ;
   }
   .body-about-me h2 {
     display: block;
@@ -230,7 +230,7 @@ h3 {
 
   .body-work {
     border-left: 0;
-    padding: 10px 20px;
+    padding: 10px;
   }
 
   .body-work h2 {
@@ -251,7 +251,7 @@ h3 {
 
   .body-contact-me {
     border-left: 0;
-    padding: 10px 20px;
+    padding: 10px;
   }
 
   .body-contact-me ul {
