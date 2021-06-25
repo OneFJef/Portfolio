@@ -182,6 +182,10 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 5px;
+  }
+  
   .header {
     display: block;
     height: 95px;
@@ -207,6 +211,7 @@ h3 {
   
   .body-about-me {
     border-left: 0;
+    padding: 10px 20px;
   }
   .body-about-me h2 {
     display: block;
@@ -225,6 +230,7 @@ h3 {
 
   .body-work {
     border-left: 0;
+    padding: 10px 20px;
   }
 
   .body-work h2 {
@@ -245,6 +251,7 @@ h3 {
 
   .body-contact-me {
     border-left: 0;
+    padding: 10px 20px;
   }
 
   .body-contact-me ul {
