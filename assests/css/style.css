@@ -104,8 +104,9 @@ h3 {
   max-height: 200px;
   width: auto;
   height: auto;
-  padding: 0 10px 8px 0;
+  margin: 0 10px 8px 0;
   float: left;
+  border: 3px solid #445777;
 }
 
 .body-about-me p {
@@ -182,12 +183,12 @@ h3 {
   body {
     margin: 0 5px;
   }
-  
+
   .header {
     display: block;
     height: 95px;
   }
-  
+
   .header h1 {
     padding: 5px 5px 5px 0;
     text-align: center;
@@ -201,14 +202,14 @@ h3 {
   .main-about-me {
     margin: 35px 0;
   }
-  
+
   .title-about-me {
     display: none;
   }
-  
+
   .body-about-me {
     border-left: 0;
-    padding: 10px ;
+    padding: 10px;
   }
   .body-about-me h2 {
     display: block;
@@ -235,7 +236,6 @@ h3 {
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 3px solid #445777;
-
   }
 
   .main-contact-me {
@@ -261,6 +261,5 @@ h3 {
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 3px solid #445777;
-
   }
 }
