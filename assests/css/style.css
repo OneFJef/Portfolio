@@ -30,10 +30,7 @@ h3 {
 }
 
 .header h1 {
-  padding-left: 75px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 5px;
+  padding: 5px 5px 5px 75px;
   background: #92ccce;
   color: #31343d;
 }
@@ -74,6 +71,7 @@ h3 {
   right: 75px;
   color: #31343d;
   background-color: #92ccce;
+  padding: 5px;
   z-index: -1;
 }
 
@@ -106,7 +104,7 @@ h3 {
   height: auto;
   margin: 0 10px 8px 0;
   float: left;
-  border: 3px solid #445777;
+  border: 5px solid #445777;
 }
 
 .body-about-me p {
@@ -126,6 +124,7 @@ h3 {
 
 .body-work {
   padding: 10px 30px;
+  margin-right: 450px;
   border-left: 3px solid #445777;
 }
 
@@ -148,13 +147,18 @@ h3 {
 }
 
 .body-work .projects img {
-  width: 400px;
-  height: 250px;
+  width: 325px;
+  height: 175px;
   opacity: 60%;
 }
 
 .body-work .projects img:hover {
   opacity: 100%;
+}
+
+.body-work .projects .first-project img {
+  width: 670px;
+  height: 425px;
 }
 
 .body-work .projects h3 {
@@ -210,6 +214,13 @@ h3 {
   color: #fff;
 }
 
+@media screen and (max-width: 1010px) {
+  .body-work .projects .first-project img {
+    width: 325px;
+    height: 175px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   body {
     margin: 0 5px;
@@ -260,6 +271,7 @@ h3 {
 
   .body-work {
     border-left: 0;
+    margin: 0 20px;
     padding: 10px;
     text-align: center;
   }
