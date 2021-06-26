@@ -135,6 +135,70 @@ h3 {
   padding-bottom: 15px;
 }
 
+.body-work .projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body-work figure h3 {
+  position: absolute;
+  bottom: 25px;
+  background: #445777;
+  padding: 4px 8px 4px 20px;
+  color: #92ccce;
+  margin: 0;
+}
+
+.body-work .project1 {
+  margin: 10px;
+  width: 400px;
+  height: 250px;
+  border: 5px solid #445777;
+  background: url(https://via.placeholder.com/400x250.png?text=...);
+  background-size: cover;
+  position: relative;
+}
+
+.body-work .project2 {
+  margin: 10px;
+  width: 400px;
+  height: 250px;
+  border: 5px solid #445777;
+  background: url(https://via.placeholder.com/400x250.png?text=...);
+  background-size: cover;
+  position: relative;
+}
+
+.body-work .project3 {
+  margin: 10px;
+  width: 400px;
+  height: 250px;
+  border: 5px solid #445777;
+  background: url(https://via.placeholder.com/400x250.png?text=...);
+  background-size: cover;
+  position: relative;
+}
+
+.body-work .project4 {
+  margin: 10px;
+  width: 400px;
+  height: 250px;
+  border: 5px solid #445777;
+  background: url(https://via.placeholder.com/400x250.png?text=...);
+  background-size: cover;
+  position: relative;
+}
+
+.body-work .project5 {
+  margin: 10px;
+  width: 400px;
+  height: 250px;
+  border: 5px solid #445777;
+  background: url(https://via.placeholder.com/400x250.png?text=...);
+  background-size: cover;
+  position: relative;
+}
+
 .main-contact-me {
   display: flex;
   margin: 35px 5%;
@@ -220,6 +284,7 @@ h3 {
 
   .main-work {
     margin: 35px 0;
+    display: block;
   }
 
   .title-work {
@@ -229,6 +294,7 @@ h3 {
   .body-work {
     border-left: 0;
     padding: 10px;
+    text-align: center;
   }
 
   .body-work h2 {
@@ -236,6 +302,12 @@ h3 {
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 3px solid #445777;
+  }
+
+  .body-work .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .main-contact-me {
