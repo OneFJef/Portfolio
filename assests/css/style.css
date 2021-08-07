@@ -124,7 +124,7 @@ h3 {
 
 .body-work {
   padding: 10px 30px;
-  margin-right: 450px;
+  /* margin-right: 450px; */
   border-left: 3px solid #445777;
 }
 
@@ -148,7 +148,7 @@ h3 {
 
 .body-work .projects img {
   width: 325px;
-  height: 175px;
+  height: 204px;
   opacity: 60%;
 }
 
@@ -159,6 +159,10 @@ h3 {
 .body-work .projects .first-project img {
   width: 670px;
   height: 425px;
+}
+
+.body-work .projects .small-project {
+  display: flex;
 }
 
 .body-work .projects h3 {
